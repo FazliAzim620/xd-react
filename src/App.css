@@ -1,0 +1,457 @@
+body{
+  background-color: #f6f7f9 !important;
+  box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+}
+.herosection{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 90vh;
+  margin: auto ;
+  background-color: #f8f9fa;
+}
+.hearoImage{
+  min-height: 62%;
+ min-width: 200px;
+ 
+}
+.hearoImage>figure>img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.navRight{
+  margin-right: -13% !important;
+}
+
+.worksection{
+  background: url('../public/assets/55.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 110%;
+  height: 100vh;
+  display: flex;
+  /* opacity: .6; */
+
+}
+.workInnnerSection{
+ height: 70%;
+/* background-color:rgba(233, 233, 233, 0.717);
+ */
+ background-color: #ECEFF4;
+ opacity: .8;
+border-radius: 10px;
+margin-top: 24% !important; 
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.workInner{
+padding-top: 2%;
+}
+.cards{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.cardW{
+  width: 90% !important;
+  min-width: 300px;
+  min-height: 250px;
+  margin-top: 10%;
+  border-radius: 5px;
+  border: 1px solid rgba(112, 183, 221, 0.9) !important;
+  background-color: #fcfcfc;
+}
+.cardIcon{
+  border: 1px solid rgb(253, 251, 251);
+  border-radius: 10px;
+  width: 30%;
+  height: 70px;
+margin: 0 auto;
+background-color: #1092B2;
+overflow: hidden;
+}
+.cardIconM{
+  border: 1px solid rgb(253, 251, 251);
+  border-radius: 10px;
+  width: 30%;
+  height: 70px;
+margin: 0 auto;
+background-color: #FE7D1E;
+overflow: hidden;
+
+}
+.innerIconM{ 
+  border: 1px solid rgb(253, 251, 251);
+ border-radius: 10px;
+ width: 90%;
+ height: 70px;
+ margin-left: 10%;
+ margin-top: 3%;
+ padding-top: 4%;
+background-color: rgba(233, 233, 233, 0.717);
+box-shadow: 1px 1px 10px white inset !important;
+}
+.innerIcon{ 
+   border: 1px solid rgb(253, 251, 251);
+  border-radius: 10px;
+  width: 90%;
+  height: 70px;
+  margin-top: 3%;
+  padding-top: 4%;
+background-color: rgba(233, 233, 233, 0.717);
+box-shadow: 1px 1px 10px white inset !important;
+}
+
+.cIcon{
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+  font-size: 50px;
+ 
+}
+
+
+.card-text>p{
+  padding: 2rem 5px;
+  text-align: center;
+}
+
+
+/* /////////////////////////// Stake start */
+.stakesection{
+  background: url('../public/assets/l.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-top: 4rem;
+  margin-left: 2rem !important;
+  height: 100vh;
+  display: flex;
+}
+.stake{
+  width: 90%;
+}
+.stakeCards{
+  min-width: 200px !important;
+  background-color:rgb(253, 249, 249);
+  display: flex;
+  min-height: 150px;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+
+
+}
+.innerStake{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:  1rem;
+}
+.stateTitle{
+  padding: 0 1.6rem ;
+}
+.stateTitle>h2{
+color: black;
+font-size: 25px;
+font-weight: 700;
+}
+.stateTitle>p{
+margin-bottom: -0.4rem;
+}
+.buttonS>button{
+  background-color: #1092B2 !important;
+  width: 90%;
+ margin:0 5% 5% 5%;
+ color: white;
+
+}
+/* ////?/////////////  invest css */
+.investsection{
+  background: url('../public/assets/s.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 96.5%;
+  height: 100vh;
+  display: flex;
+  /* opacity: .6; */
+
+}
+.investCard{
+  width: 90% !important;
+  min-width: 300px;
+  min-height: 200px;
+  margin-top: 5%;
+  border-radius: 5px;
+  border: 1px solid rgba(112, 183, 221, 0.9) !important;
+  background-color: #fcfcfc;
+}
+.card-textInvest>p{
+  padding: 1rem 5px;
+  text-align: center;
+}
+.viewBtn{
+  width: 23%;
+  margin-top: 1rem;
+  margin-left: -2.5rem;
+  background-color: #1092B2 !important;
+  color: white !important;
+}
+
+/* ///////////////////////  what is staking  */
+.aboutStack{
+  background: url('../public/assets/1.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: -10%;
+  margin-top: -10%;
+  height: 100vh;
+  display: flex;
+  /* opacity: .6; */
+
+}
+.aboutStakinner{
+  margin-top: 30%;
+}
+.aboutsection{
+  background-color: rgba(233, 233, 233, 0.717);
+  padding: 2rem 0;
+}
+.accordion{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.accordion-header{
+  margin-top: .6rem;
+}
+
+.accordion-button{
+  height: 20px !important;
+  padding: 1.5rem 1rem !important;
+  box-shadow: none !important;
+
+}
+.btnviewmore{
+  background-color: #1092B2 !important;
+  color: white !important;
+  width: 200px;
+  margin: 1rem 0 0 35%;
+
+}
+/* ///////////////   footer */
+.footerContainer{
+  background-color: rgba(233, 233, 233, 0.717);
+  width: 100%;
+  margin-top: 35%;
+ border-radius: 10px;
+ min-height: 200px;
+}
+.upperfooter{
+  padding: 6rem 2rem;
+}
+.upperfooter h3{
+  color: #1092B2;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 43px;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+}
+.upperfooter p{
+  width: 70%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+.footerForm{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+.footerForm>input{
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  background-color: #f6f7f9;
+  padding-left: .5rem;
+
+}
+.footerForm>textarea{
+  resize: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  height: 6.5rem;
+  background-color: #f6f7f9;
+  padding-left: .5rem;
+
+}
+.footerForm>input[type=submit]{
+  background-color: #1092B2;
+  width: 40%;
+  color: white;
+}
+.footerbottom{
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto !important;
+  
+}
+.footerLogo,.footernavigate,.footerSubs,.footerContact{
+  margin-top: 1rem !important;
+
+}
+.footerLogo img{
+  width: 40%;
+  height: 40px !important;
+  padding: 5px 0;
+}
+.footerLogo p{
+  margin: 5px 0;
+}
+.footerLogo span{
+  width: 100%;
+  font-size: 10px;
+margin-top: 2rem !important;
+}
+.footernavigate{
+  padding: 0 2rem !important;
+}
+.footernavigate ul{
+  list-style: none;
+  
+}
+.footernavigate ul li{
+  padding: 0;
+  /* background-color: #1092B2; */
+  margin: 5px 0 0 -2rem;
+}
+.footernavigate h5,.footerContact h5,.footerSubs h5{
+  font-weight: 400;
+}
+.footerContact h6{
+  font-size: 14px !important;
+  font-weight: 400;
+}
+.footerSubs{
+  display: flex;
+  flex-direction: column;
+  
+}
+.footerSubs input{
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+.footerSubs button{
+  width: 60%;
+  background-color: #1092B2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+/*          random change image */
+.imageChangeSection{
+  width: 50%;
+  height: 60vh;
+  margin: 3rem auto !important;
+  /* overflow: hidden; */
+}
+.imageDiv{
+  width: 100%;
+ 
+}
+.Cimage{
+  width: 100%!important;
+  height: 50vh;
+  object-fit: cover;
+}
+.buttonDiv{
+  background-color: #1092B2 !important;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px;
+}
+
+/* media query */
+@media(max-width:390px){
+  .hearoImage>figure>img {
+ 
+    margin-top: 18px;
+  }
+  .stakesection {
+    margin-top: 28rem !important;
+}
+.workInner{  
+  padding-top: 2%;
+  margin-top: -13rem !important;
+  /* background-color: red !important; */
+
+}
+body{
+  overflow-x: hidden;
+}
+.stakesection {
+  margin-top: 41rem !important;
+  margin-left: -1rem !important;
+}
+.workInnnerSection {
+  height: 168% !important;
+}
+.investsection {
+ 
+  margin-top: 62rem;
+}
+button.btn.viewBtn {
+  width: 90%;
+}
+.aboutStakinner {
+  margin-top: 176%;
+  padding: 0 !important;
+}
+.accordion {
+padding: 5px 0 !important;
+  width: 88%;}
+
+
+.aboutsection p{
+  width: 80% !important;
+}
+.footerContainer {
+  
+  margin-top: 180%;}
+  .upperfooter h3 {
+    width: 100%;
+    line-height: 27px;
+    letter-spacing: 0;
+    word-spacing: 0;
+    margin: 0 auto;
+    font-size: 23px;
+    font-weight: 500;}
+    .upperfooter p {
+      width: 100%;}
+}
+/* @media only screen and (max-width: 375px) {
+  body {
+    background-color: red !important;
+  }
+} */
